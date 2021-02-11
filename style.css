@@ -1,0 +1,74 @@
+h1{
+    color:white; 
+    margin-left: 30px;
+    
+    }
+   
+body{
+    background-image: url(Icons/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+    .Box1{
+        
+        background-color: cadetblue;
+        display:flex;
+        justify-content: space-between;
+
+    }
+    a:link{
+        color: white;
+    }
+    
+    a:visited{
+        color:coral;
+    }
+
+  
+    .grid {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+        }
+        .item{
+            position: relative;
+        }
+    
+        .item img{
+
+            padding: 40px;
+        }
+        .item p{
+            font-weight: bold;
+            color:black;
+            font-family: Papyrus;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity:0;
+        }
+    
+        .item:hover p{
+        opacity: 1;
+    }
+    
+    .item:hover img{
+        opacity: 0.33;
+    }     
+
+
+    p{
+        font-size: x-large;
+        color:saddlebrown ;
+        font-family: "Lucida Handwriting";
+      }
+     h2,p {
+
+                text-align: center;
+            }
+
